@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SEX machin</title>
+
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+	<header>
+		<div class = "container">
+			SEX MACHIN ... PERDON , ME EXCITE (POR MARCELO EL GRANDE)
+		</div>
+	</header>
+
+	<div class = "container">
+		<section class = "row" >
+			<div class="col-md-2"></div>
+			<canvas id = "canvas" class = "col-md-8" width="600" height="200"></canvas>
+			<div class="col-md-2"></div>
+
+		</section>
+
+		<section class = "row">
+			<div class="col-md-4"> 
+			<input type="text" id = "input" class="col-md-6" >
+			 <button onclick="capturarinput()" class = "btn btn-primary"	id="load">load</button> 
+			</div>
+
+			 <button onclick="play()" class = "btn btn-primary col-md-2"	id="load">play</button> 
+			<button onclick="stop()" class = "btn btn-primary col-md-2"	id="load">stop</button> 
+			<button onclick="reset()" class = "btn btn-primary col-md-2"	id="load">reset</button> 
+
+		</section>
+
+		<section class = "row">
+			<div class="col-md-2"></div>
+			<textarea class="form-control col-md-8" rows="10" id="codigo"></textarea>
+			<div class="col-md-2"></div>
+		</section>
+		
+		<section class= "row">
+			 <button onclick="capturartxt()" class = "btn btn-primary"	id="compilar">Compilar</button> 
+
+		</section>
+	</div>
+	
+
+	<script src="js/jquery.js"></script>
+	<script src ="js/bootstrap.min.js"></script>
+	<script src="tape.js"></script>
+	<script src="cabecera.js"></script>
+	<script src="maquina.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
